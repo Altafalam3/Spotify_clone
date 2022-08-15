@@ -1,0 +1,260 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+body{
+  background-color:#fefcdd;
+}
+
+/* Header part starts */
+
+.container{
+  padding:10px 5%;
+  background-color: black;
+  color: white;
+}
+
+nav{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo{
+  height: 55px;
+}
+
+#brand,#About{
+  display: flex;
+  align-items: center;
+}
+
+#brand strong,#About strong{
+  font-size: 25px;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a:hover{
+  background-color: white;
+  color:#007d00;
+}
+
+nav ul li a{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+sup{
+font-size: 10px;
+}
+
+/*Main part start*/
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgba(26, 20, 18, 1);
+  color:white;
+  padding-top: 10px;
+}
+
+#phone{
+  height:350px;
+  margin:15px 0px;
+}
+
+#PhoneInfo{
+  font-size:20px;
+  align-items: center;
+}
+
+#Info{
+  border:solid black 0px;
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+  width:45%;
+  height:30%;
+  padding:10px 3%;
+  margin :5% 5%;
+  align-items: center;
+}
+
+.inpu{
+  padding:10px 10px;
+  margin:5px 0;
+  border-radius: 10px;
+  width:85%;
+  
+}
+
+#Submit{
+  color:black;
+  background-color: #26D769;
+  font-size:20px;
+  font-weight: bolder;
+  height:70px;
+  border-radius:40px;
+  width:80%;
+  margin-left:10%;
+}
+
+#Submit:hover{
+  color:white;
+}
+
+#Info label{
+  font-weight:60;
+}
+
+.Note{
+  font-size:smaller;
+  text-align: center;
+}
+
+#Account{
+  text-align: center;
+}
+
+/*Footer starts*/
+footer{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:black;
+  color:white; 
+  padding: 20px 0;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 5px 0px;
+  font-weight: bolder;
+}
+
+footer ul li a{
+  color:white;
+}
+
+footer ul li a:hover{
+  padding-left: 10px;
+}
+
+footer div{
+  padding:10px 5%;
+}
+
+.abtHead{
+  color: #b3b3bf;
+  font-size:18px;
+}
+
+/*Responsive website for small screen mobile css */ 
+
+@media only screen and (max-width:600px){
+#Info{
+  width:100%;
+  align-items: center;
+  background-color: rgba(26, 20, 18, 1);
+  margin: -10px 0px;
+}
+   
+#Info form,#Info p{
+  display:none;
+}
+  
+#Submit{
+  width:90%;
+  border-radius: 45px;
+  height:60px;
+}
+
+   footer div{
+  margin:10px 10%;
+  }
+   #phone{
+     height:300px;
+   }
+   footer{
+     padding:10px;
+   }
+
+   #About{
+     margin-left:5px;
+   }
+  }
+
+/*Responsive website for tablet*/
+
+@media only screen and (max-width:1150px){
+  /*start*/
+.containerr {
+  display: inline-block;
+  cursor: pointer;
+  position:absolute;
+  top:25px;
+  right:25px;
+}
+   
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.5s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+/*end*/
+
+nav ul{
+  background-color: black;
+  position:fixed;
+  top:0px;
+  right:-180px;
+  width:180px;
+  height:100%;
+  padding-top:80px;
+}
+
+nav ul li{
+ padding:12px 2px;
+  font-weight: bolder;
+}
+   
+.nav-active{     
+  right:0px;
+ /* transform: translateX(-100%);*/
+  transition: transform 0.5s ease-in;
+  }
+
+  .inpu{
+    width:90%;
+  }
+}

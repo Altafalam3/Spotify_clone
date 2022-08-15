@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Spotify Music</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="Spotify.jpeg" rel="icon">
+</head>
+
+<body>
+
+
+  <header>
+
+    <div class="container">
+      <nav class="navbar" id="sidemenu">
+
+        <div id="brand"><img src="Spotify.jpeg" alt="Spotify" class="logo"><strong>Spotify<sup>®</sup></strong></div>
+
+        <ul class="nav-menu">
+          <li><a href="https://www.spotify.com/us/premium/">Premium</a></li>
+          <li><a href="https://support.spotify.com/us/">Support</a></li>
+          <li><a href="https://www.spotify.com/us/download/windows/">Download</a></li>
+
+        </ul>
+
+      </nav>
+      <!--Menu -->
+
+      <div class="containerr" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <!-- End menu -->
+    </div>
+  </header>
+
+  <main>
+    <img src="Phone2.jpg" alt="spotify photo" id="phone">
+    <div id="PhoneInfo">
+
+      <p>Your music.</p>
+      <p>Your podcasts.</p>
+      <p>Your Home.</p>
+
+    </div>
+
+    <div id="Info">
+      <form>
+        <label> What should we call you?</label>
+        <br>
+        <input type="text" placeholder="Enter a profile name" class="inpu" size="100">
+        <br>
+        <label> Email address</label>
+        <br>
+        <input type="email" placeholder="Enter your email address" class="inpu" size="100">
+        <br>
+        <label> Enter password</label>
+        <br>
+        <input type="password" placeholder="Enter a password" class="inpu" size="100">
+        <br>
+      </form>
+      <br>
+      <p class="Note">By clicking on signup you agree to Spotify's <a
+          href="https://www.spotify.com/us/legal/end-user-agreement/">Terms and conditions of use.</a></p>
+      <br>
+      <p class="Note">To learn more about how Spotify collects,uses,shares and protects your <br>personal data,please
+        see <a href="#">Spotify's Privacy Policy.</a></p>
+      <br>
+      <input type="button" value="Sign up" id="Submit" onclick="alert('Not available currently...');">
+      <br>
+      <br>
+      <p id="Account">Have an account?<a href="">Log in</a></p>
+      <br>
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div id="About">
+      <img src="Spotify.jpeg" alt="Spotify" class="logo">
+      <strong>Spotify<sup>®</sup></strong>
+    </div>
+
+    <div>
+      <p class="abtHead">COMPANY</p>
+      <br>
+      <ul>
+        <li><a href="https://www.spotify.com/us/about-us/contact/">About</a></li>
+        <li><a href="https://www.lifeatspotify.com/">Jobs</a></li>
+        <li><a href="https://newsroom.spotify.com/?s=for+the+records">For the records</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <p class="abtHead">USEFUL LINKS</p>
+      <br>
+      <ul>
+        <li><a href="https://support.spotify.com/us/">Support</a></li>
+        <li><a href="https://open.spotify.com/">Web Player</a></li>
+        <li><a href="https://www.spotify.com/us/free/">Free Mobile App</a></li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+  <script src="script.js">
+  </script>
+
+</body>
+
+</html>
