@@ -82,7 +82,7 @@ main{
 }
 
 #Info{
-  border:solid black 0px;
+  border:solid rgba(26, 20, 18, 1) 0px;
   background-color: white;
   color:black;
   border-radius: 5px;
@@ -110,6 +110,7 @@ main{
   border-radius:40px;
   width:80%;
   margin-left:10%;
+  border:solid #26D769 1px;
 }
 
 #Submit:hover{
@@ -200,7 +201,7 @@ footer div{
 
 /*Responsive website for tablet*/
 
-@media only screen and (max-width:1150px){
+@media only screen and (max-width:950px){
   /*start*/
 .containerr {
   display: inline-block;
