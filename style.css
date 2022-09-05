@@ -82,14 +82,14 @@ main{
 }
 
 #Info{
-  border:solid rgba(26, 20, 18, 1) 0px;
+  border:solid rgba(26, 20, 18, 1) 1px;
   background-color: white;
   color:black;
   border-radius: 5px;
-  width:45%;
-  height:30%;
-  padding:10px 3%;
-  margin :5% 5%;
+  width:30%;
+  height:35%;
+  padding:10px 2%;
+  margin :5% 5% 5% 1%;
   align-items: center;
 }
 
@@ -166,7 +166,7 @@ footer div{
 
 /*Responsive website for small screen mobile css */ 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:400px){
 #Info{
   width:100%;
   align-items: center;
@@ -201,7 +201,7 @@ footer div{
 
 /*Responsive website for tablet*/
 
-@media only screen and (max-width:950px){
+@media only screen and (max-width:755px){
   /*start*/
 .containerr {
   display: inline-block;
