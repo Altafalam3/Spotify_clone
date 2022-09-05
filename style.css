@@ -110,7 +110,8 @@ main{
   border-radius:40px;
   width:80%;
   margin-left:10%;
-  border:solid #26D769 1px;
+  border:solid white 1px;
+  
 }
 
 #Submit:hover{
