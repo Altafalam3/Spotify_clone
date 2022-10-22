@@ -122,6 +122,9 @@ main{
   font-weight:60;
 }
 
+#Info p{
+    font-size: 9.9px; 
+} 
 .Note{
   font-size:smaller;
   text-align: center;
@@ -130,6 +133,7 @@ main{
 #Account{
   text-align: center;
 }
+
 
 /*Footer starts*/
 footer{
