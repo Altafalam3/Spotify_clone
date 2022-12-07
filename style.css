@@ -171,7 +171,7 @@ footer div{
 
 /*Responsive website for small screen mobile css */ 
 
-@media only screen and (max-width:400px){
+@media only screen and (max-width:415px){
 #Info{
   width:100%;
   align-items: center;
